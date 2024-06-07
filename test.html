@@ -13,7 +13,8 @@
 
 mercuryoWidget.run({ widgetId: '60b69ef8-9287-49d7-8164-94d87d8982c4', partner_flow: 'trustwallet', host: document.getElementById('widget') });
       window.addEventListener('message', (event) => {
-        console.log(event)
+        console.log(event.data)
+        console.log('HERE')
         if (event.data.type === 'SEND_CRYPTO') {
           console.log('HERE')
           window.TrustWalletGeneric.postMessage(event.data.data)
