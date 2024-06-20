@@ -6,18 +6,10 @@
   <title>Document</title>
 </head>
 <body>
-  <div id="widget"></div>
-    <script src="https://sandbox-widget.mrcr.io/embed.2.0.js"></script>
+  <div id="root1"></div>
+    <script src="https://widget.mrcr.io/embed.2.1.js"></script>
     <script>
-
-mercuryoWidget.run({ widgetId: '60b69ef8-9287-49d7-8164-94d87d8982c4', partnerFlow: 'trustwallet', host: document.getElementById('widget') });
-      window.addEventListener('message', (event) => {
-        console.log(event.data)
-        if (event.data.type === 'SEND_CRYPTO') {
-          window.TrustWalletGeneric.postMessage(event.data.data)
-        }
-      })
-
+      mercuryoWidget.run({ widgetId: 'efd535f3-a200-46fa-8811-31ce2a07c52c', host: document.getElementById('root1'), currency: "ETH", amount: '100' });
     </script>
 </body>
 </html>
