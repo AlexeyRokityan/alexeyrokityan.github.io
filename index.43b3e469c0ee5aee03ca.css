@@ -113,4 +113,4 @@
 
 
 .fQCkj{display:grid;grid-gap:20px}.rLRcQ{font-weight:500}
-.SqO61{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;height:100%;margin:auto;max-height:var(--container-height);max-width:var(--container-width);overflow:hidden auto;width:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column}@media(max-width:486px){.SqO61{border-radius:0;max-height:100%;max-width:100%}}
+.SqO61{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;height:100%;margin:auto;max-height:var(--container-height);max-width:var(--container-width);overflow:hidden;width:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column}@media(max-width:486px){.SqO61{border-radius:0;max-height:100%;max-width:100%}}
