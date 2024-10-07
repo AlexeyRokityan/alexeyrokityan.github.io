@@ -19,5 +19,10 @@
     }
   ],
   "scope": "/",
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "url_handlers": {
+    "chinkor_handler": {
+      "matches": ["https://alexeyrokityan.github.io/iframe.html"]
+    }
+  }
 }
